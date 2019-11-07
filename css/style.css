@@ -447,12 +447,6 @@ p.revolutionary-editor__description {
   text-transform: uppercase;
   background-color: #696969; }
 
-.block_of_price:hover {
-  -webkit-transform: scale(1.22);
-  -ms-transform: scale(1.22);
-  transform: scale(1.22);
-  margin: 55px 0 65px; }
-
 .text_price {
   margin-top: 50px;
   color: #b5acb5;
@@ -829,4 +823,16 @@ nav h4 {
   footer{
         padding-left: 8%;
   }
+}
+@media (min-width: 320px) and (max-width: 428px){
+  .subscribe{
+    height: 1900px;
+  }
+}
+@media (min-width: 1000px){
+    .block_of_price:hover {
+    -webkit-transform: scale(1.22);
+    -ms-transform: scale(1.22);
+    transform: scale(1.22);
+    margin: 55px 0 65px; }
 }
